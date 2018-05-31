@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:background="#55dddddd"
+        android:padding="10dp"
+        android:gravity="top"
+        android:hint="Enter some lines of data here..."
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/write_sd_file"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="1. write sd file"/>
+    <Button
+        android:id="@+id/clear_screen"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="2. clear screen"/>
+    <Button
+        android:id="@+id/read_sd_file"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="3. read sd file"/>
+    <Button
+        android:id="@+id/finish_app"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="4. finish app"/>
+
+</LinearLayout>
